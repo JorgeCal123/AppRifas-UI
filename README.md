@@ -1,27 +1,40 @@
-# AppRifasUI
+Gestión de Rifas
+Esta pagina web desarrollado con Angular 16 y Python funciona para la gestión y administración de rifas de manera digital, con esta aplicación permite el registro, seguimiento y gestión de boletas de rifas, así como la administración de premios y ganadores.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Características Principales
 
-## Development server
+Gestión de rifas semanales (Generacion de Talonarios y boletas)
+Registro y seguimiento de boletas
+Panel de administración
+Portal para vendedores
+Visualización de premios actuales para los clientes
+Historial de ganadores
+Interfaz responsive y amigable
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Tecnologías Utilizadas
 
-## Code scaffolding
+Frontend:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular 16
+TypeScript
+CSS
+Angular Router
+RxJS
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Backend:
 
-## Running unit tests
+Python
+API RESTful
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Estructura del Sistema
+El sistema cuenta con tres vistas principales:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Vista Principal: 
+    Muestra los premios actuales y el historial de ganadores
+Vista Administrador: 
+    Panel de control para la gestión del sistema
+Vista Vendedor:
+    Interface para el registro y gestión de boletas
